@@ -1,6 +1,6 @@
 /**
- * main - main block
- * Return : 0
+ * main - main function
+ * Return : Always 0 (sucess)
 */
 
 #include <stdio.h>
