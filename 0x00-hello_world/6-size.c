@@ -1,8 +1,8 @@
 /**
  * main - print the size of some type
  * Description : program that prints the size of various types on the computer
- * Return : Always 0 (sucess)
-*/
+ * Return : zero sucessfully
+ */
 
 #include <stdio.h>
 
