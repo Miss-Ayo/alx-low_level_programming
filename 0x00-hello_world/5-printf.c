@@ -1,7 +1,8 @@
 /**
- * main - main function
- * Return : Always 0 (success)
-*/
+ * main - printf function
+ * Description: program that prints exactly a sentence
+ * Return: zero successfully
+ */
 
 #include <stdio.h>
 

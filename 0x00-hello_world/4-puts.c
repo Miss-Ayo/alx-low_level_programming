@@ -1,6 +1,7 @@
 /**
- * main - main function
- * Return : Always 0 (success)
+ * main - puts function
+ * Description: program that prints exactly a sentence with puts
+ * Return: zero successfully
 */
 
 #include <stdio.h>
