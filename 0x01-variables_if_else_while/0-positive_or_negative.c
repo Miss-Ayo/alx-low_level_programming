@@ -1,6 +1,6 @@
 /**
  * main - check n sign
- * Return 0 successfully
+ * Return: 0 successfully
  */
 
 #include <stdio.h>
