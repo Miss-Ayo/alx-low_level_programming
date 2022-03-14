@@ -3,6 +3,7 @@
  * Return 0 successfully
  */
 
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
