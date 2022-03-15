@@ -1,5 +1,5 @@
 /**
- * main - alphabetic in reverse
+ * main - print comb
  * Return: 0 successfully
  */
 
@@ -7,12 +7,16 @@
 
 int main(void)
 {
-char A = 'z';
-
-while (A >= 'a')
+int A = '0';
+while (A <= '9')
 {
 putchar(A);
-A--;
+if (A != '9')
+{
+putchar(',');
+putchar(' ');
+}
+A++;
 }
 putchar('\n');
 return (0);
