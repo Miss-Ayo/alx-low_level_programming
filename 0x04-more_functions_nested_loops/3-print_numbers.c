@@ -1,8 +1,5 @@
 /**
  * print_numbers - print number from 0 to 9
- * 
- * Description: Prints the numbers with _putchar
- * 
  * Return: void
  */
 
@@ -10,9 +7,11 @@
 
 void print_numbers(void)
 {
-int i = '0';
+int i;
 
-while (i <= '9') {
+i = '0';
+while (i <= '9')
+{
 _putchar(i);
 i++;
 }
