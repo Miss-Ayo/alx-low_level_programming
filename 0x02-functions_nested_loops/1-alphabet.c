@@ -1,5 +1,5 @@
 /**
- * main - prins the alpahabet in lowercase
+ * print_alphabet - prins the alpahabet in lowercase
  * Description: print alphabet in lowercase, followed
  * by a newline
  * Return: 0 successfully
