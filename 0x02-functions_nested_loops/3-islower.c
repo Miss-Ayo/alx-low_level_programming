@@ -6,11 +6,6 @@
 
 #include "main.h"
 
-void _putchar(char c)
-{
-write(1, &c, 2);
-}
-
 int _islower(int c)
 {
 if (c >= 97 && c <= 122 )
