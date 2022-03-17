@@ -3,6 +3,8 @@
  * Return: 0 successfully
  */
 
+#include "main.h"
+
 void print_alphabet(void)
 {
 char character = 'a';
