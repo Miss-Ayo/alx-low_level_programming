@@ -5,19 +5,23 @@
 
 #include "main.h"
 
-void print_alphabet_x10(void)
+void pre_print(void)
 {
 char character = 'a';
-int i = 1;
-
-while (i <= 10) 
-{
 while (character <= 'z')
 {
 putchar(character);
 character++;
 }
 putchar('\n');
+}
+
+void print_alphabet_x10(void)
+{
+int i = 1;
+
+while (i <= 10) {
+pre_print();
 i++;
 }
 }
