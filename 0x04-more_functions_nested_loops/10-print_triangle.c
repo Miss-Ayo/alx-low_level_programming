@@ -6,11 +6,6 @@
  * Return: 0
  */
 
-/*int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
-
 void print_triangle(int size)
 {
    int i;
@@ -23,12 +18,3 @@ void print_triangle(int size)
         _putchar('\n');
    }
 }
-
-int main(void)
-{
-    print_triangle(5);
-    /*print_triangle(10);
-    print_triangle(1);
-    print_triangle(0);
-    return (0);
-}*/

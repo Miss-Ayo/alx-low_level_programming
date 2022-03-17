@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * fizz_buzz - print numbers from 1 to 100
+ * main - print numbers from 1 to 100
  * Return: void
  */
 
-void fizz_buzz(void)
+int main(void)
 {
 int i = 1;
 
@@ -30,4 +30,5 @@ printf("%d ", i);
 i++;
 }
 printf("\n");
+return (0);
 }
