@@ -1,5 +1,8 @@
 /**
  * print_numbers - print number from 0 to 9
+ * 
+ * Description: Prints the numbers with _putchar
+ * 
  * Return: void
  */
 
