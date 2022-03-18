@@ -2,7 +2,8 @@
 
 /**
  * print_diagonal - draw a diagonal line
- * @n: n is the number of times the character \ should be printed
+ * 
+ * @n: the number of space
  * Return: void
  */
 
@@ -21,7 +22,7 @@ while (i <= n)
 {
 if (i > 1)
 {
-while (j <= (n - 1))
+while (j <= n - 1)
 {
 _putchar(' ');
 j++;
