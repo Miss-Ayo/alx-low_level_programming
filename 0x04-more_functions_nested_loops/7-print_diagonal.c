@@ -2,7 +2,6 @@
 
 /**
  * print_diagonal - draw a diagonal line
- * 
  * @n: the number of space
  * Return: void
  */
