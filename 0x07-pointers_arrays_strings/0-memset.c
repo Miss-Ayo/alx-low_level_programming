@@ -1,10 +1,8 @@
 /**
  * _memset -  fills memory with a constant byte
- * 
  * @s: pointer to the memory
  * @b: constant byte
  * @n: first byte of the memory
- *  
  * Return: a pointer to the memory s
  */
 
