@@ -9,20 +9,17 @@
 
 char *_strpbrk(char *s, char *accept)
 {
-unsigned int var1 = 0;
-unsigned int var2 = 0;
+unsigned int var1, var2;
 
-while (*(s + var1))
+for (var1 = 0; *(s + var1); var1++)
 {
-while (*(accept + var2))
+for (var2 = 0; *(accept + var2); var2++)
 {
 if (*(s + var1) == *(accept + var2))
 break;
-var2++;
 }
 if (*(accept + var2) != '\0')
 return (s + var1);
-var1++;
 }
 return (0);
 }
