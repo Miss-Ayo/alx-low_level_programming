@@ -1,5 +1,5 @@
 /**
- * malloc_checked - allocates memory using malloc
+ * *malloc_checked - allocates memory using malloc
  * @b: src value
  * Return: pointer to the allocated memory
  */
