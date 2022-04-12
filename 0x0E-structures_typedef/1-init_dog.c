@@ -1,4 +1,5 @@
 #include "dog.h"
+#include <stdlib.h>
 
 /**
  * init_dog - init struct
@@ -6,6 +7,7 @@
  * @name: store a string
  * @age: store a number
  * @owner: store a string
+ *
  * Return: void
  */
 
