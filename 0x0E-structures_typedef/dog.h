@@ -4,14 +4,13 @@
 /**
  * struct dog - list dates for pets
  * @name: pet name
- * @owner: pet owner name
  * @age: pet age
+ * @owner: pet owner name
  */
-
 struct dog
 {
-char *owner;
 char *name;
 float age;
+char *owner;
 };
 #endif
