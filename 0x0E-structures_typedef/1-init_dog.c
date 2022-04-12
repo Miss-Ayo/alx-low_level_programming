@@ -1,12 +1,13 @@
+#include "dog.h"
+
 /**
  * init_dog - init struct
  * @d: passing struct at the function
  * @name: store a string
  * @age: store a number
  * @owner: store a string
+ * Return: void
  */
-
-#include "dog.h"
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
