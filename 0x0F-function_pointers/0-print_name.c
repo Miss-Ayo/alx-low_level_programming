@@ -1,8 +1,9 @@
 /**
- * print_name - a function that prints a name
- * @name: name to print
- * @f: a function pointer
- */
+ * print_name - function that prints a name
+ *
+ * @name: the name
+ * @f: the function pointer
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
