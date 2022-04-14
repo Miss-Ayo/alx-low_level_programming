@@ -3,8 +3,6 @@
  *
  * @name:name to print
  * @f: a function pointer
- *
- * Return: void
  */
 
 #include <stdio.h>
