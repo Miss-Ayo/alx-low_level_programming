@@ -1,9 +1,7 @@
 /**
- * print_name - prints a name
- * @name:name to print
+ * print_name - a function that prints a name
+ * @name: name to print
  * @f: a function pointer
- *
- * Return: nothing
  */
 
 #include <stdio.h>
