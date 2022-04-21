@@ -19,7 +19,7 @@ if (h->str == NULL)
 printf("[0] (nil)");
 else if (h->str != NULL)
 printf("[%u] %s\n", h->len, h->str);
-count++;
+count += 1;
 h = h->next;
 }
 return (count);
